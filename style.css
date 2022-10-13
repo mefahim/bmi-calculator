@@ -1,0 +1,88 @@
+* {
+  font-family: Quicksand;
+  font-size: 16px;
+  color: rgb(245, 241, 241);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  border: 0;
+  background: linear-gradient(90deg, rgba(180, 58, 99, 1) 0%, rgba(66, 29, 253, 1) 41%, rgba(49, 26, 180, 1) 69%, rgba(69, 252, 173, 1) 100%);
+
+}
+
+
+
+input {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: .4em .5em;
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+
+input {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: .4em .5em;
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+
+[type=number] {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: .4em .5em;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, .7);
+  border-radius: 2px;
+  background: rgba(255, 255, 255, .5);
+  box-shadow: rgba(0, 0, 0, .15) 0 1px 0;
+  color: rgba(0, 0, 0, .7);
+  font-weight: 400;
+  font-size: 12pt;
+  transition: all .2s ease-in-out;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+}
+
+[type=number]:focus {
+  outline: none;
+  border-color: orange;
+  box-shadow: #fc0 0 0 3px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #289df6;
+  padding-top: 15px;
+  display: block;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 b {
+  font-size: 32px;
+  font-weight: 300;
+  color: #289df6;
+}
